@@ -1,4 +1,4 @@
-<h1 align="center"> Portfólio </h1>
+<h1 align="center"> Tatoo Stúdio </h1>
 
 <p align="center">
   <a href="#--projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -15,14 +15,14 @@
 
 <br>
 
-![portfolio](https://github.com/antonio2812/Portfolio/assets/104834145/4b793cf4-5340-4f54-a577-1169f0a32912)
+![Captura-de-tela-tatoo-studio](https://github.com/user-attachments/assets/335b36fb-6cca-4294-b15a-9489e24f5465)
 
 
 ## 💻  Projeto
 
-Portfólio falando sobre as tecnologias que tenho conhecimento e meus principais projetos que já criei.
+Desenvolvi uma página web para um estúdio de tatuagem utilizando HTML e CSS, projetada para atrair e engajar clientes interessados em arte corporal. O site apresenta informações sobre o estúdio, estilos de tatuagem e uma galeria de trabalhos realizados, proporcionando uma experiência visual impactante e informativa.
 
-[Visite o projeto online](https://antonio2812.github.io/Portfolio/)
+[Visite o projeto online](https://antonio2812.github.io/tatoo-studio/)
 
 ## ⚡  Tecnologias
 
@@ -35,12 +35,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ```bash
   # Clone o projeto
-  $ git clone https://github.com/antonio2812/portfolio.git
+  $ git clone https://github.com/antonio2812/tatoo-studio.git
 ````
 
 ```bash
   # Entrar no diretório
-  $ cd portfolio
+  $ cd tatoo-studio
 ```
 
 ```bash
@@ -90,4 +90,4 @@ Dar uma⭐️se esse projeto te ajudou ou inspirou!
 
 ## :memo:  Licença
 
-Esse projeto está sob a licença MIT. Consulte o arquivo <a href="https://github.com/antonio2812/Portfolio/blob/main/LICENSE">LICENSE</a> para mais detalhes.
+Esse projeto está sob a licença MIT. Consulte o arquivo <a href="https://github.com/antonio2812/tatoo-studio/blob/main/LICENSE">LICENSE</a> para mais detalhes.
