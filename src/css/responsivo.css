@@ -1,0 +1,317 @@
+@media(max-width: 1280px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .cabecalho .navegacao ul {
+        margin-right: 50px;
+        font-size: 20px;
+    }
+
+    .cabecalho .navegacao label .mobile-menu {
+        display: none;
+    }
+
+    .sobre {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre .informacoes-sobre h2 {
+        font-size: 32px;
+    }
+
+    .sobre .informacoes-sobre p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .sobre .informacoes-sobre .redes-sociais ul {
+        font-size: 25px;
+    }
+
+    .sobre .container-foto .foto-perfil img {
+        margin-left: 75px;
+    }
+
+    .sobre #link-topo {
+        color: #000;
+        text-decoration: none;
+        font-size: 21px;
+        border: 1px solid #282828;
+        border-radius: 50%;
+        text-align: center;
+        padding: 5px;
+        position: fixed;
+        right: 180px;
+        bottom: 300px;
+        transition: 0.5s;
+    }
+
+    .sobre #link-topo:hover {
+        background-color: #9443d8;
+        border-radius: 50%;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #fff;
+    }
+
+    .tecnologias {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tecnologias .titulo {
+        font-size: 32px;
+        margin-right: 100px;
+    }
+
+    .tecnologias .tecnologias-front-end ul {
+        margin-right: 100px;
+        padding: 100px;
+    }
+
+    .tecnologias .tecnologias-back-end ul {
+        margin-right: 100px;
+        margin-bottom: 100px;
+        padding: 100px 200px;
+    }
+
+    .tecnologias .tecnologias-front-end ul i {
+        font-size: 60px;
+    }
+
+    .tecnologias .tecnologias-back-end ul i {
+        font-size: 70px;
+    }
+
+    .projetos .secao-projetos {
+        margin-right: 200px;
+    }
+
+    .projetos h2 {
+        font-size: 32px;
+        margin-right: 90px;
+    }
+}
+
+
+@media(max-width: 880px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .cabecalho .logo {
+        font-size: 25px;
+    }
+
+    .cabecalho .navegacao ul {
+        display: none;
+    }
+
+    .cabecalho .navegacao {
+        position: absolute;
+        left: 950px;
+    }
+
+    .cabecalho .navegacao label .mobile-menu {
+        cursor: pointer;
+        display: block;
+        margin-top: 25px;
+        margin-right: 50px;
+    }
+
+    .cabecalho .navegacao label .mobile-menu div {
+        width: 32px;
+        height: 2px;
+        background: #282828;
+        margin: 8px 80px 0 0;
+        position: relative;
+    }
+
+    .cabecalho .navegacao input:checked~label .mobile-menu {
+        border-top-color: transparent;
+    }
+
+    .cabecalho .navegacao label .mobile-menu .line1 {
+        transition: 0.5s ease-in-out;
+    }
+
+    .cabecalho .navegacao input:checked~label .mobile-menu .line1 {
+        transform: rotate(135deg);
+    }
+
+    .cabecalho .navegacao input:checked~label .mobile-menu .line1 {
+        transform: rotate(-135deg);
+    }
+
+    .cabecalho .navegacao label .mobile-menu .line2 {
+        transition: 0.5s ease-in-out;
+    }
+
+    .cabecalho .navegacao input:checked~label .mobile-menu .line2 {
+        position: relative;
+        bottom: 10px;
+        transform: rotate(50deg);
+    }
+
+    .cabecalho .navegacao input:checked~label .mobile-menu .line2 {
+        transform: rotate(-50deg);
+    }
+
+    .cabecalho .navegacao label .mobile-menu .line3 {
+        transition: 0.5s ease-in-out;
+    }
+
+    .cabecalho .navegacao input:checked~label .mobile-menu .line3 {
+        display: none;
+    }
+
+    .cabecalho .navegacao input:checked ~ ul {
+        display: block;
+        background-color: #282828;
+        position: absolute;
+        right: 10px;
+        top: 55px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .cabecalho .navegacao input:checked ~ ul li a {
+        display: block;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .sobre .informacoes-sobre h2 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .sobre .informacoes-sobre p {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .sobre .container-foto .foto-perfil {
+        margin-left: 10px;
+    }
+
+    .sobre #link-topo {
+        color: #000;
+        text-decoration: none;
+        font-size: 21px;
+        border: 1px solid #282828;
+        border-radius: 50%;
+        text-align: center;
+        padding: 5px;
+        position: fixed;
+        right: 150px;
+        bottom: 300px;
+        transition: 0.5s;
+    }
+
+    .sobre #link-topo:hover {
+        background-color: #9443d8;
+        border-radius: 50%;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #fff;
+    }
+
+    .tecnologias .titulo {
+        font-size: 32px;
+        margin-left: 300px;
+    }
+
+    .tecnologias .tecnologias-front-end ul {
+        margin-left: 300px;
+    }
+
+    .tecnologias-back-end ul {
+        margin-left: 300px;
+    }
+
+    .projetos h2 {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 32px;
+        margin-left: 350px;
+    }
+
+    .projetos .secao-projetos {
+        margin-left: 190px;
+        padding: 50px 550px 50px 150px;
+    }
+
+    .projetos .secao-projetos a img {
+        width: 900px;
+        margin: 50px 200px;
+        transition: 0.5s;
+    }
+
+    .projetos .secao-projetos a:hover img {
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .sobre .informacoes-sobre h2 {
+        width: 900px;
+    }
+    
+    .sobre .informacoes-sobre p {
+        width: 900px;
+    }
+
+    .tecnologias .titulo {
+        font-size: 32px;
+        margin-left: 550px;
+    }
+
+    .tecnologias .tecnologias-front-end {
+        margin-left: 250px;
+    }
+
+    .tecnologias .tecnologias-back-end {
+        margin-left: 250px;
+    }
+
+    .projetos h2 {
+        font-size: 32px;
+        margin-left: 470px;
+    }
+
+    .projetos .secao-projetos {
+        margin-right: 250px;
+    }
+}
+
+@media (max-width: 490px) {
+    .sobre .secao-contato a {
+        width: 1500px;
+    }
+}
+
+@media (max-width: 880px) {
+    #endereco .map-container {
+        width: 1050px;
+    }
+
+    .footer {
+        width: 1100px;
+    }
+}
