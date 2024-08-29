@@ -20,7 +20,7 @@
 
 ## 💻  Projeto
 
-Desenvolvi uma página web para um estúdio de tatuagem utilizando HTML e CSS, projetada para atrair e engajar clientes interessados em arte corporal. O site apresenta informações sobre o estúdio, estilos de tatuagem e uma galeria de trabalhos realizados, proporcionando uma experiência visual impactante e informativa.
+Desenvolvi uma página web para um estúdio de tatuagem utilizando HTML, CSS e Inteligência Artificial para criar a idéia do Projeto, projetada para atrair e engajar clientes interessados em arte corporal. O site apresenta informações sobre o estúdio, estilos de tatuagem e uma galeria de trabalhos realizados, proporcionando uma experiência visual impactante e informativa.
 
 [Visite o projeto online](https://antonio2812.github.io/tatoo-studio/)
 
@@ -30,6 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML5 e CSS3
 - Git e GitHub
+- Inteligência Artificial
 
 ## 🤝  Como Contribuir
 
